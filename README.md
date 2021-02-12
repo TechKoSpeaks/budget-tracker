@@ -1,28 +1,62 @@
-# budget-tracker
+# Budget-Tracker Application
 
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+## Description
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+Budget-Tracker is a PWA based application that allows the user to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they are able to populate the total when brought back online.
 
 Offline Functionality:
 
   * Enter deposits offline
-
   * Enter expenses offline
 
 When brought back online:
 
-  * Offline entries should be added to tracker.
+  * Offline entries have been added to the budget tracker.
+
+  ## Table of Contents: 
+
+<br>
+
+* [Description](#description)
+* [User Story](#user-story)
+* [Business Context](#business-context)
+* [Technology](#technology)
+* [Acceptance Criteria](#acceptance-criteria)
+* [Application](#application)
+* [License](#license)
+
+
+<br />
+
 
 ## User Story
+
 AS AN avid traveller
+<br>
 I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+<br>
 SO THAT my account balance is accurate when I am traveling
 
 ## Business Context
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to applications success.
+
+## Technology
+
+Technology Used:
+
+Progressive Working Applications
+<br>
+MongoDB
+<br>
+Javascript
+<br>
+Node_modules
+<br>
+Heroku
+<br>
+HTML5 and CSS3
 
 
 ## Acceptance Criteria
@@ -30,43 +64,23 @@ GIVEN a user is on Budget App without an internet connection
 WHEN the user inputs a withdrawal or deposit
 THEN that will be shown on the page, and added to their transaction history when their connection is back online.
 
-## Starter Code
 
-You have been provided with a nearly functional app in `./Develop`. Your task is to update the app so that it is a PWA. 
 
-* Update the client (front-end) to use the IndexedDB api to store transactions entered by the user when the app is offline and "sync" up with the server whenever the app goes online by posting any transactions that were stored while offline.
+## Application
 
-* Debug any client (front-end) errors visible in the Chrome Developer Tools Console.
-
-* Create a `manifest.json` file in `/public` and link it in `/public/index.html`.
-
-* Implement a service worker to cache resources necessary for required offline functionality.
-
-* Users should be able to "install" the app for a native-like experience.
-
+Link to Deployed PWA Application: https://limitless-bayou-76912.herokuapp.com/ 
 - - -
 
-## Commit Early and Often
+## License
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-* Follow these guidelines for committing:
-
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
+‎‎![License](https://img.shields.io/static/v1?label=License&message=MIT&color=brightgreen) 
+![License](https://img.shields.io/static/v1?label=Language&message=JavaScript&color=yellow)
+![License](https://img.shields.io/static/v1?label=Language&message=Node.js&color=green)
+![License](https://img.shields.io/static/v1?label=Language&message=PWA&color=red) 
+![License](https://img.shields.io/static/v1?label=Language&message=MongoDB&color=blueviolet)
+![License](https://img.shields.io/static/v1?label=Language&message=Heroku&color=yellowgreen)    
+![License](https://img.shields.io/static/v1?label=Language&message=HTML5&color=orange) 
+![License](https://img.shields.io/static/v1?label=Language&message=CSS3&color=blue) 
 
 * You are required to submit the following:
 
